@@ -1,0 +1,17 @@
+name: Docker Image pba_back
+on:
+  push:
+    branches: [ "dev" ]
+  pull_request:
+    branches: [ "dev" ]
+jobs:
+  build:
+    runs-on: [self-hosted, linux]
+    steps:
+    - uses: actions/checkout@v3
+    - name: "Creation de l'image pba dev"
+      run: docker build . --file Dockerfile --tag gh-run:dev
+    - name: "push au registre goku"
+      run: docker push docker.shenron.dev/gh-run:dev
+    - name: "lancement du container dev"
+      run: docker compose up -d 
