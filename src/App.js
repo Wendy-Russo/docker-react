@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Alors on fait du docker ou pas ?
+          Skurt skurt le truc il a changé je crois la non ?
         </h1>
+        <marquee>ʕノ•ᴥ•ʔノ ︵ ┻━┻</marquee>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
