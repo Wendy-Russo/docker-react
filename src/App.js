@@ -8,6 +8,7 @@ function App() {
         <h1>
           Skurt  sk sk le truc il a changé je crois la non ?
         </h1>
+        <marquee>ʕノ•ᴥ•ʔノ ︵ ┻━┻</marquee>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
