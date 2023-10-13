@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Skurt skurt le truc il a changé je crois la non ?
+          Skurt le truc il a changé je crois la non ?
         </h1>
         <marquee>ʕノ•ᴥ•ʔノ ︵ ┻━┻</marquee>
         <img src={logo} className="App-logo" alt="logo" />
