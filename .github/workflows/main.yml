@@ -12,4 +12,4 @@ jobs:
     - name: "Creation de l'image pba dev"
       run: docker build . --file Dockerfile --tag gh-run:dev
     - name: "run"
-      run: docker run -p 95:5000 gh-run:dev 
+      run: docker run -p 95:3000 gh-run:dev 
